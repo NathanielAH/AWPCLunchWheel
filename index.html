@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wheel of Lunch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Wheel of Lunch</h1>
+<div id="wheelContainer">
+    <canvas id="wheelCanvas" width="500" height="500"></canvas>
+    <div id="pointer"></div>
+</div>
+<div id="controls">
+    <button id="spinBtn">Spin</button>
+    <button id="respinBtn" disabled>Not Feelin' It</button>
+</div>
+<div id="current">
+    <h2 id="selectedRestaurant">Ready to spin!</h2>
+    <p id="currentDay"></p>
+</div>
+<div id="used">
+    <h3>Used Restaurants this Week</h3>
+    <ul id="usedList"></ul>
+</div>
+<script src="Winwheel.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
