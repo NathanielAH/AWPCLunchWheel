@@ -1,0 +1,8 @@
+{
+  "name": "awpclunchwheel",
+  "version": "1.0.0",
+  "description": "Wheel of Lunch picker web app",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}

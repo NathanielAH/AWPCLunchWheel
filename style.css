@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#wheelContainer {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+#wheelCanvas {
+    width: 100%;
+    height: auto;
+}
+
+#pointer {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid red;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#used {
+    margin-top: 20px;
+}
+
+#counts {
+    margin-top: 20px;
+}
+
+@media (max-width: 550px) {
+    #wheelContainer {
+        width: 100%;
+        height: auto;
+    }
+}
